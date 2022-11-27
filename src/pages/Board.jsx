@@ -53,7 +53,7 @@ export const Board = () => {
       <h4>Your turn, {turn}</h4>
       <Grid container justifyContent="center">
         <Grid container item xs={1} justifyContent="center">
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => {
+          {items.map((i) => {
             return (
               <Grid
                 item
